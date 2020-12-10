@@ -2,6 +2,8 @@ import numpy as np
 from sklearn.utils import shuffle
 from sklearn.metrics import accuracy_score, recall_score, precision_score
 
+# reference: https://towardsdatascience.com/svm-implementation-from-scratch-python-2db2fc52e5c2
+
 class svm:
     def __init__(self, X, Y, learning_rate=0.00001, epochs=1000):
         self.X = X
